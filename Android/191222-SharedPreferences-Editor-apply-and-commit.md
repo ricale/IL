@@ -5,7 +5,7 @@
 - Android Studio 3.5.3
 - Android SDK (minVersion 21)
 
-#### Preferences
+#### References
 
 - [What's the difference between commit() and apply() in Shared Preference](https://stackoverflow.com/questions/5960678/whats-the-difference-between-commit-and-apply-in-shared-preference) - Stack Overflow
 - [SharedPreferences.Editor](https://developer.android.com/reference/android/content/SharedPreferences.Editor.html#apply()) - Android Developers
