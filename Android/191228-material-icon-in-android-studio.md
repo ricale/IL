@@ -5,7 +5,7 @@
 - Android Studio 3.5.3
 - Android SDK (minVersion 21)
 
-####References
+#### References
 
 - [Import material design icons into an android project](https://stackoverflow.com/questions/28684759/import-material-design-icons-into-an-android-project) - Stack Overflow
 - [Why is my FloatingActionButton icon black?](https://stackoverflow.com/questions/53458821/why-is-my-floatingactionbutton-icon-black/53668350) - Stack Overflow
