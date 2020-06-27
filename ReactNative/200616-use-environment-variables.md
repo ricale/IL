@@ -3,7 +3,9 @@
 
 #### Environment
 
-- React Native 0.62
+- react-native 0.62.2
+- typescript 3.8.3
+- react-native-config 1.2.1
 
 #### References
 
@@ -24,13 +26,13 @@ Xcode 에서 빌드 혹은 아카이브를 실행하면 환경 파일이 자동�
 
     cp ${PROJECT_DIR}/../.env.dev .env
 
-하지만 알 수 없는 원인 때문에 작동되지 않았다.
+하지만 알 수 없는 이유 때문에 작동되지 않았다.
 
 [구글링을 해 본 결과][how-to-env] 아래 스크립트를 **pre-actions** 에 넣으면 정상적으로 환경이 적용되는 것을 알아냈다.
 
     echo ".env.dev" > /tmp/envfile
 
-단 위처럼 하기만 하면 콘솔에서는 무슨 수를 써도 `.env.dev` 가 환경 파일로 적용된다. 그래서 **post-actions** 에 아래 스크립트도 같이 추가해주었다.
+단 위처럼 하기만 하면 이후에는 콘솔에서는 무슨 수를 써도 `.env.dev` 가 환경 파일로 적용된다. 그래서 **post-actions** 에 아래 스크립트도 같이 추가해주었다.
 
     rm /tmp/envfile
 
