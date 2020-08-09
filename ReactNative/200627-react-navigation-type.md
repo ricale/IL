@@ -1,5 +1,5 @@
 
-# [React Native] React Navigation 
+# [React Native] React Navigation 타입 지정
 
 #### Environment
 
@@ -16,7 +16,7 @@
 
 React Navigation 의 [Stack Navigator](https://reactnavigation.org/docs/stack-navigator) 사용 시 Typescript 타입 지정에 관해 간략히 기록한다. 
 
-#### createStackNavigator
+### createStackNavigator
 
 `createStackNavigator` 메서드 사용 시 타입을 지정할 수 있다. 타입을 지정할 때는 구현하고자 하는 라우팅에 대해 [`Record`](https://www.typescriptlang.org/docs/handbook/utility-types.html#recordkt) 형식의 타입을 지정하면 된다.
 
@@ -31,7 +31,7 @@ const Stack = createStackNavigator<RootStackParamList>();
 // ...
 ```
 
-#### 각 스크린
+### 각 스크린
 
 각 스크린으로 활용될 컴포넌트에서는 React Navigation 에게서 전달받은 `navigation`, `route` props 를 사용할 수 있다. 이들의 타입은 아래와 같이 지정할 수 있다. 위에서 작성해둔 `RootStackParamList`도 사용해야 한다.
 
