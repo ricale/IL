@@ -1,9 +1,8 @@
-# [React Native] React Navigation 타입 지정
+# [React Native] 안드로이드 빌드 에러 (... due to missing strip tool for ...)
 
 #### Environment
 
 - react-native 0.62
-- react-native-webview 10.2.3
 
 #### References
 
