@@ -6,7 +6,7 @@
 
 #### References
 
-- [Xcode 10 Error: Multiple commands produce][https://stackoverflow.com/questions/50718018/xcode-10-error-multiple-commands-produce]
+- [Xcode 10 Error: Multiple commands produce](https://stackoverflow.com/questions/50718018/xcode-10-error-multiple-commands-produce)
 
 ---
 
