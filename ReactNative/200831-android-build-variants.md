@@ -7,10 +7,7 @@
 #### References
 
 - [빌드 변형 구성](https://developer.android.com/studio/build/build-variants) - Android Developers
-- [Publishing to Google Play Store](https://reactnative.dev/docs/signed-apk-android) - React Native docs
-- [React Native : Expiring Daemon because JVM heap space is exhausted?](https://stackoverflow.com/questions/59044161/react-native-expiring-daemon-because-jvm-heap-space-is-exhausted) - Stack Overflow
 - [Gradle 4.0 Unable to find a matching configuration](https://stackoverflow.com/questions/44218614/gradle-4-0-unable-to-find-a-matching-configuration) - Stack Overflow
-- 
 
 ---
 
@@ -23,6 +20,7 @@
 안드로이드에서는 `app/build.gradle` 파일을 수정해서 쉽게 빌드를 나눌 수 있다. 아래는 `globaldebug`와 `globalrelease` 설정을 추가한 예시이다.
 
 ```gradle
+{
     /// ...
     buildTypes {
         debug {
@@ -43,6 +41,7 @@
         }
     }
     /// ...
+}
 ```
 
 - `applicationIdSuffix`: 어플리케이션 아이디(패키지 이름) 뒤에 추가로 붙을 문자열이다. 예를 들어 원래 패키지 이름이 `com.example.app` 이고 `applicationIdSuffix`가 `.global`이면 해당 환경의 패키지 이름은 `com.example.app.global`이 된다.
