@@ -16,7 +16,7 @@
 
 ---
 
-[React Navigation 의 공식 문서][react-navigation-doc]에서, 앱 사용자들이 어떤 화면에 접속하는지 (통계적인 용도로) 트래킹하기 위한 코드를 제공해준다.
+[React Navigation 의 공식 문서][react-navigation-doc]에서, firebase analytics 를 사용해 앱 사용자들이 어떤 화면에 접속하는지 (통계적인 용도로) 트래킹하기 위한 코드를 제공해준다.
 
 ```jsx
 import * as React from 'react';

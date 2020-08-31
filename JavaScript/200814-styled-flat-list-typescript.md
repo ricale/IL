@@ -2,7 +2,6 @@
 
 #### Environment
 
-- react-native 0.62
 - typescript 3.8.3
 - styled-components 5.1.0
 
