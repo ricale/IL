@@ -18,15 +18,15 @@
 
 ### 해결
 
-\1. 아래 명령어를 실행한다.
+1\. 아래 명령어를 실행한다.
 
 ```bash
 pod deintegrate
 ```
 
-\2. `ios/PROJECT_NAME.xcodeproj/project.pbxproj` 파일에서 `path = Pods` 부분을 찾아서 `name = Pods` 로 변경해준다.
+2\. `ios/PROJECT_NAME.xcodeproj/project.pbxproj` 파일에서 `path = Pods` 부분을 찾아서 `name = Pods` 로 변경해준다.
 
-\3. 아래 명령어를 실행한다.
+3\. 아래 명령어를 실행한다.
 
 ```bash
 pod install
