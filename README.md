@@ -1,5 +1,1 @@
-# IL
-
-(something I Learned)
-
-본래 TIL 이었으나, 매일 할 자신이 없어 T는 제거하였음.
+기록 중지. 이후 기록은 https://velog.io/@ricale 에 함.
